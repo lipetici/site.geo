@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(to bottom, #fde2e4, #fad2e1);
+  color: #4a4a4a;
+}
+
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff0f5;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+  color: #d81b60;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.linha-do-tempo .evento {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li::before {
+  content: "❤️ ";
+}
+
+.fotos {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fotos img {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.carta {
+  font-style: italic;
+  font-size: 18px;
+}
+
+button {
+  background-color: #f06292;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.mensagem-escondida {
+  display: none;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff0f5;
+  color: #ad1457;
+  font-weight: bold;
+}
